@@ -1,0 +1,62 @@
+body {
+    @include body;
+}
+
+header {
+    @include flexbox;
+    @extend %border-box;
+
+    span {
+        @extend %span;
+
+        @include phones {
+            font-size: 1rem;
+            font-weight: 600;
+        }
+    }
+
+    span:hover {
+        @extend %hover;
+    }
+
+    nav {
+        @include flexbox;
+
+        a {
+            @include link;
+
+            @include phones {
+                font-size: 1rem;
+                font-weight: 100;
+            }
+        }
+
+        a:hover {
+            @extend %hover;
+        }
+
+        @include phones {
+            font-size: 0.9rem;
+        }
+    }
+}
+
+#grid-proyectos {
+    @include grid;
+
+    .proyecto-img-container img {
+        width: 100%;
+    }
+
+    .proyecto-link {
+        a {
+            @extend %a;
+        }
+    }
+}
+
+.cursos-habilidades {
+    a {
+        @extend %hab;
+    }
+}

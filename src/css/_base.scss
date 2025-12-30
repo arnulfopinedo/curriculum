@@ -1,0 +1,65 @@
+@mixin body {
+    background: #020003;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+@mixin flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+@mixin link {
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+@mixin grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 0px;
+    width:100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+@mixin phones {
+    @media screen and (max-width: 48rem) { @content };
+}
+
+%border-box {
+    box-sizing: border-box;
+}
+
+%padding {
+    padding: 1.2rem;
+}
+
+%span {
+    font-size: 2rem;
+}
+
+%hover {
+    transition: all 0.3s ease;
+    transform: scale(1.09);
+}
+
+%a {
+    text-decoration: none;
+    background: #0d6efd;
+    padding: 10px;
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+%hab {
+    text-decoration: none;
+    color: #ffffff;
+}
