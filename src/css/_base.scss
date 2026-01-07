@@ -1,8 +1,8 @@
 @mixin body {
-    background: #020003;
+    background: #fad01e;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-size: 1rem;
-    color: #ffffff;
+    color: #000000;
     padding: 1rem;
 }
 
@@ -15,7 +15,7 @@
 
 @mixin link {
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
     cursor: pointer;
     font-weight: 600;
 }
