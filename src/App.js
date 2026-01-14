@@ -3,6 +3,7 @@ import Proyectos from './Components/Proyectos';
 import SobreMi from './Components/SobreMi';
 import FormacionAcademica from './Components/FormacionAcademica';
 import CursosHabilidades from './Components/CursosHabilidades';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Proyectos/>
       <FormacionAcademica/>
       <CursosHabilidades/>
-      <Header/>
+      <Footer/>
     </>
   );
 }

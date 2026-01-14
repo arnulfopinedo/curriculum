@@ -1,19 +1,23 @@
-header {
+header, footer {
   box-sizing: border-box;
 }
 
-header span {
+.cur-hab, .for-aca, .proyectos, .sobremi {
+  padding: 1rem;
+}
+
+header span, footer span {
   font-size: 2rem;
 }
 
-header nav a:hover, header span:hover {
+header nav a:hover, footer nav a:hover, header span:hover, footer span:hover {
   transition: all 0.3s ease;
   transform: scale(1.09);
 }
 
-#grid-proyectos .proyecto-link a {
+.proyectos-grid .proyecto-link a, .proyectos .proyectos-card .proyectos-card-link a {
   text-decoration: none;
-  background: #0d6efd;
+  background: #2962ff;
   padding: 10px;
   border-radius: 4px;
   color: #ffffff;
@@ -24,51 +28,76 @@ header nav a:hover, header span:hover {
   color: #ffffff;
 }
 
-body {
-  background: #fad01e;
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
-  font-size: 1rem;
-  color: #000000;
-  padding: 1rem;
+.cur-hab .cur-hab-cont-tit, .for-aca .for-aca-cont-tit, .proyectos .proyectos-card .proyectos-card-titulo, .proyectos .proyectos-titulo, .sobremi .sobremi-titulo {
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-header {
+body {
+  background: #FFD600;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: rgba(11, 11, 11, 0.7607843137);
+  margin: 0px;
+}
+
+header, footer {
+  padding: 1rem;
+  background: #2962FF;
+  color: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
 @media screen and (max-width: 48rem) {
-  header span {
+  header span, footer span {
     font-size: 1rem;
     font-weight: 600;
   }
 }
-header nav {
+header nav, footer nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
-header nav a {
+header nav a, footer nav a {
+  color: white !important;
   text-decoration: none;
   color: #000000;
   cursor: pointer;
-  font-weight: 600;
 }
 @media screen and (max-width: 48rem) {
-  header nav a {
+  header nav a, footer nav a {
     font-size: 1rem;
     font-weight: 100;
   }
 }
 @media screen and (max-width: 48rem) {
-  header nav {
+  header nav, footer nav {
     font-size: 0.9rem;
   }
 }
 
-#grid-proyectos {
+.proyectos .proyectos-card {
+  background-color: #f0f0f0;
+  border-radius: 14px;
+  padding: 14px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.proyectos .proyectos-card .proyectos-img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.proyectos .proyectos-card .proyectos-card-descripcion {
+  margin-bottom: 10px;
+}
+.proyectos .proyectos-card .proyectos-card-link {
+  padding: 10px 0px 10px 0px;
+}
+.proyectos-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
@@ -77,6 +106,6 @@ header nav a {
   margin: 0 auto;
   box-sizing: border-box;
 }
-#grid-proyectos .proyecto-img-container img {
+.proyectos-grid .proyecto-img-container img {
   width: 100%;
 }/*# sourceMappingURL=main.css.map */
