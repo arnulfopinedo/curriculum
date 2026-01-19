@@ -9,7 +9,7 @@ const Proyectos = () => {
         <>
             <article className="proyectos">
                 <div className="proyectos-contenido">
-                    <h2 className='proyectos-titulo'>Proyectos</h2>
+                    <h2 className='proyectos-titulo'>PROYECTOS</h2>
                     <div className="proyectos-grid">
                         <div className="proyectos-card">
                             <div className='proyectos-card-img'>

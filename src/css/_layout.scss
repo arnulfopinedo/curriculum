@@ -51,6 +51,16 @@ header, footer {
     .sobremi-titulo {
         @extend %titulo;
     }
+
+    .lista {
+        padding-left: 2rem;
+        list-style: square;
+        margin-bottom: 10px;
+    }
+
+    .sobremi-profesor {
+        margin-bottom: 10px;
+    }
 }
 
 .proyectos {

@@ -3,7 +3,7 @@ const FormacionAcademica = () => {
         <>
             <article className="for-aca">
                 <div className="for-aca-cont">
-                    <h2 className="for-aca-cont-tit">Formación académica</h2>
+                    <h2 className="for-aca-cont-tit">FORMACIÓN ACADÉMICA</h2>
                     <span>Grado: Maestría en sistemas computacionales.</span><br/>
                     <span>Institución: Instituto Tecnológico de la Laguna.</span><br/>   
                     <span>Duración: 2015 - 2018.</span><br/><br/>

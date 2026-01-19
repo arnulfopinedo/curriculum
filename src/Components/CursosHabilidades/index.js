@@ -3,7 +3,7 @@ const CursosHabilidades = () => {
         <>
             <article className="cur-hab">
                 <div className="cur-hab-cont">
-                    <h2 className="cur-hab-cont-tit">Cursos y habilidades</h2>
+                    <h2 className="cur-hab-cont-tit">CURSOS Y HABILIDADES</h2>
                     <span>Curso: Desarrollador full stack java.</span><br/>
                     <span>Institución: Escuela británica de artes creativas y tecnología.</span><br/>
                     <span>Sitio web: <a class target="_blank" href="https://ebac.mx/full-stack-java">EBAC.</a></span><br/>
