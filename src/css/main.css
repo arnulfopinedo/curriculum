@@ -1,4 +1,4 @@
-header, footer {
+footer, header {
   box-sizing: border-box;
 }
 
@@ -6,11 +6,11 @@ header, footer {
   padding: 1rem;
 }
 
-header span, footer span {
+footer h1, header h1 {
   font-size: 2rem;
 }
 
-header nav a:hover, footer nav a:hover, header span:hover, footer span:hover {
+footer nav a:hover, footer h1:hover, header nav a:hover, header h1:hover {
   transition: all 0.3s ease;
   transform: scale(1.09);
 }
@@ -41,7 +41,7 @@ body {
   margin: 0px;
 }
 
-header, footer {
+header {
   padding: 1rem;
   background: #2962FF;
   color: #ffffff;
@@ -50,32 +50,75 @@ header, footer {
   align-items: center;
   gap: 20px;
 }
-@media screen and (max-width: 48rem) {
-  header span, footer span {
-    font-size: 1rem;
+@media screen and (max-width: 40rem) {
+  header h1 {
+    font-size: 2rem;
     font-weight: 600;
+    text-align: center;
   }
 }
-header nav, footer nav {
+header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
-header nav a, footer nav a {
+header nav a {
   color: white !important;
   text-decoration: none;
   color: #000000;
   cursor: pointer;
 }
-@media screen and (max-width: 48rem) {
-  header nav a, footer nav a {
+@media screen and (max-width: 40rem) {
+  header nav a {
+    font-size: 0.5rem;
+    font-weight: 100;
+    display: none;
+  }
+}
+@media screen and (max-width: 40rem) {
+  header nav {
+    font-size: 0.9rem;
+  }
+}
+
+footer {
+  padding: 1rem;
+  background: #2962FF;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+@media screen and (max-width: 40rem) {
+  footer h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    display: none;
+  }
+}
+footer nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+footer nav a {
+  color: white !important;
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+@media screen and (max-width: 40rem) {
+  footer nav a {
     font-size: 1rem;
     font-weight: 100;
   }
 }
-@media screen and (max-width: 48rem) {
-  header nav, footer nav {
+@media screen and (max-width: 40rem) {
+  footer nav {
     font-size: 0.9rem;
   }
 }
@@ -117,4 +160,7 @@ header nav a, footer nav a {
 }
 .proyectos-grid .proyecto-img-container img {
   width: 100%;
+}
+.cur-hab a {
+  color: rgba(11, 11, 11, 0.7607843137);
 }/*# sourceMappingURL=main.css.map */

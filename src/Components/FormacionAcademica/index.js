@@ -1,7 +1,7 @@
 const FormacionAcademica = () => {
     return (
         <>
-            <article className="for-aca">
+            <article className="for-aca" id="formacion">
                 <div className="for-aca-cont">
                     <h2 className="for-aca-cont-tit">FORMACIÓN ACADÉMICA</h2>
                     <span>Grado: Maestría en sistemas computacionales.</span><br/>

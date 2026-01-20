@@ -2,7 +2,7 @@ const Header = () => {
     return(
         <div>
             <header>
-                <span>Arnulfo Pinedo</span>
+                <h1>ARNULFO PINEDO</h1>
                 <nav>
                     <a href="/curriculum/#sobremi">Sobre mi</a>
                     <a href="/curriculum/#proyectos">Proyectos</a>

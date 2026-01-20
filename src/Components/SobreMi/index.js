@@ -1,7 +1,7 @@
 const SobreMi = () => {
     return (
         <>
-            <article className="sobremi">
+            <article className="sobremi" id="sobremi">
                 <div className="sobremi-seccion">
                     <h2 className="sobremi-titulo">SOBRE MI</h2>
                     <h4 className="sobremi-titulo">Maestro en sistemas computacionales con conocimientos en:</h4>
@@ -31,13 +31,13 @@ const SobreMi = () => {
                         <li>Instalación de UPS.</li>
                         <li>Configuración de touch screen.</li>
                         <li>Configuración grabadoras DVR.</li>
-                        <li>Configuración de team viewer (Para tomar control remoto de los equipos de computo).</li>
+                        <li>Configuración de team viewer (Para tomar control remoto sobre los equipos de computo).</li>
                         <li>Instalación de software a cajeros automáticos.</li>
                         <li>Configuración de cajero automático (red, impresora, lectora, dispensador).</li>
                         <li>Mantenimiento preventivo y correctivo a equipos de computo y cajeros automáticos.</li>
                         <li>Atención de tickets (Resolución de problemas de computadoras, multifuncionales, internet, access point, atención a usuarios).</li>
-                        <li>Smartboard.</li>
-                        <li>Proyectores.</li>
+                        <li>Instalación de smartboard.</li>
+                        <li>Instalación de proyectores.</li>
                         <li>Instalación de red de computadoras LAN (Planeación y ejecución de instalacion de red, cableado, creación de nodos, instalación de switch, instalación de modem, configuración de red inalambrica).</li>
                         <li>Instalación y configuración de impresoras, escaner´s, multifuncionales y plotters.</li>
                     </ul>

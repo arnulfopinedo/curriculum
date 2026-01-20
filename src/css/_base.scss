@@ -30,7 +30,7 @@
 }
 
 @mixin phones {
-    @media screen and (max-width: 48rem) { @content };
+    @media screen and (max-width: 40rem) { @content };
 }
 
 %border-box {

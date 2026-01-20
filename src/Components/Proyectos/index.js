@@ -7,7 +7,7 @@ import hiramgomez from '../../img/hiramgomez.png';
 const Proyectos = () => {
     return (
         <>
-            <article className="proyectos">
+            <article className="proyectos" id='proyectos'>
                 <div className="proyectos-contenido">
                     <h2 className='proyectos-titulo'>PROYECTOS</h2>
                     <div className="proyectos-grid">

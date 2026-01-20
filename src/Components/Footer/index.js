@@ -2,7 +2,7 @@ const Footer = () => {
     return(
         <div>
             <footer>
-                <span>Arnulfo Pinedo</span>
+                <h1>Arnulfo Pinedo</h1>
                 <nav>
                     <a href="/curriculum/#sobremi">Sobre mi</a>
                     <a href="/curriculum/#proyectos">Proyectos</a>
