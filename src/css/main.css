@@ -113,7 +113,7 @@ footer nav a {
 }
 @media screen and (max-width: 40rem) {
   footer nav a {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     font-weight: 100;
   }
 }
