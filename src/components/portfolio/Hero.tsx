@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Download, Mail, ArrowRight, Sparkles } from "lucide-react";
 import profile from "@/assets/profile.jpg";
+import cvPdf from "@/assets/cv-arnulfo-pinedo.pdf?url";
 
 const titles = [
   "Maestro en Sistemas Computacionales",
