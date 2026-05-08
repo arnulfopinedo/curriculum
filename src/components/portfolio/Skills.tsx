@@ -16,12 +16,19 @@ const webSkills = [
 const webStack = ["HTML", "CSS (SASS)", "Bootstrap", "PHP", "WordPress", "Mobirise", "Shopify", "Moodle", "GitHub", "JavaScript", "jQuery", "Axios", "Node", "TypeScript", "React", "Creación de páginas web", "Administración de hosting"];
 
 const support = [
-  { icon: HardDrive, title: "Armado y reparación", desc: "Equipos de cómputo y mantenimiento preventivo." },
-  { icon: Server, title: "Instalación de UPS", desc: "Respaldo eléctrico y protección de equipos." },
-  { icon: Cable, title: "Cableado estructurado", desc: "Redes LAN y diseño de infraestructura." },
-  { icon: Wifi, title: "Redes inalámbricas", desc: "Access Points y configuración de cobertura." },
-  { icon: Monitor, title: "DVR / CCTV", desc: "Configuración de videovigilancia y monitoreo." },
-  { icon: Printer, title: "Impresoras y plotters", desc: "Multifuncionales, plotters y configuración." },
+  "Armado, instalación y reparación de equipos de cómputo",
+  "Instalación de UPS",
+  "Configuración de touch screen",
+  "Configuración de grabadoras DVR",
+  "Configuración de TeamViewer (control remoto sobre equipos de cómputo)",
+  "Instalación de software a cajeros automáticos",
+  "Configuración de cajero automático (red, impresora, lectora, dispensador)",
+  "Mantenimiento preventivo y correctivo a equipos de cómputo y cajeros automáticos",
+  "Atención de tickets (computadoras, multifuncionales, internet, access point, usuarios)",
+  "Instalación de smartboard",
+  "Instalación de proyectores",
+  "Instalación de red LAN (planeación, cableado, nodos, switch, módem, red inalámbrica)",
+  "Instalación y configuración de impresoras, escáneres, multifuncionales y plotters",
 ];
 
 function Bar({ name, level, i }: { name: string; level: number; i: number }) {
