@@ -43,7 +43,7 @@ export function About() {
       <div className="mx-auto max-w-7xl px-4">
         <SectionHeader eyebrow="Sobre mí" title="Tecnología, liderazgo y resultados." />
 
-        <div className="max-w-3xl">
+        <div className="w-full">
           <motion.div
             initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}
             transition={{ duration: 0.6 }}
