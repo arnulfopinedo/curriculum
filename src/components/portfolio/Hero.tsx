@@ -4,7 +4,6 @@ import { Download, Mail, ArrowRight, Sparkles } from "lucide-react";
 import profile from "@/assets/profile.jpg";
 
 const titles = [
-  "Ingeniero en Sistemas Computacionales",
   "Maestro en Sistemas Computacionales",
 ];
 
