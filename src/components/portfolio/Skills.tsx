@@ -13,7 +13,7 @@ const webSkills = [
   { name: "APIs / Axios", level: 82 },
 ];
 
-const webStack = ["HTML", "CSS", "SASS", "Bootstrap", "JavaScript", "TypeScript", "React", "Node.js", "jQuery", "Axios", "Git", "GitHub", "WordPress", "Shopify", "Moodle", "Mobirise"];
+const webStack = ["HTML", "CSS (SASS)", "Bootstrap", "PHP", "WordPress", "Mobirise", "Shopify", "Moodle", "GitHub", "JavaScript", "jQuery", "Axios", "Node", "TypeScript", "React", "Creación de páginas web", "Administración de hosting"];
 
 const support = [
   { icon: HardDrive, title: "Armado y reparación", desc: "Equipos de cómputo y mantenimiento preventivo." },
