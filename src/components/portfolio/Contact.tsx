@@ -10,7 +10,7 @@ export function Contact() {
 
         <motion.div
           initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-          className="max-w-2xl mx-auto space-y-3"
+          className="max-w-2xl space-y-3"
         >
           {[
             { icon: Mail, label: "Correo", value: "arnulfo.angel2017@gmail.com", href: "mailto:arnulfo.angel2017@gmail.com" },
