@@ -59,7 +59,7 @@ export function Hero() {
           </div>
           <p className="mt-6 max-w-xl text-base sm:text-lg text-muted-foreground leading-relaxed">
             <Sparkles className="inline size-4 text-primary mr-1" />
-            Transformando ideas en <span className="text-foreground font-medium">soluciones tecnológicas de alto impacto</span>. Más de una década construyendo, liderando y enseñando.
+            Profesional en Tecnologías de la Información con más de <span className="text-foreground font-medium">15 años de experiencia</span> en soporte técnico, desarrollo web, administración de sistemas y gestión académica. Especialista en mantenimiento preventivo y correctivo, desarrollo de aplicaciones web, infraestructura de redes y atención a usuarios. Capacidad comprobada para coordinar equipos y resolver problemas críticos en entornos productivos.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
