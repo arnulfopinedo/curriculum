@@ -63,10 +63,7 @@ export function Skills() {
                 <p className="text-sm text-muted-foreground">Frontend, backend y CMS</p>
               </div>
             </div>
-            <div className="space-y-4">
-              {webSkills.map((s, i) => <Bar key={s.name} {...s} i={i} />)}
-            </div>
-            <div className="mt-6 flex flex-wrap gap-2">
+            <div className="mt-2 flex flex-wrap gap-2">
               {webStack.map(t => (
                 <span key={t} className="px-2.5 py-1 rounded-md bg-white/5 text-xs font-mono text-muted-foreground border border-white/5">{t}</span>
               ))}
