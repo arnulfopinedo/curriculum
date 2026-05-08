@@ -43,7 +43,7 @@ export function About() {
       <div className="mx-auto max-w-7xl px-4">
         <SectionHeader eyebrow="Sobre mí" title="Tecnología, liderazgo y resultados." />
 
-        <div className="max-w-3xl">
+        <div className="w-full">
           <motion.div
             initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}
             transition={{ duration: 0.6 }}
@@ -59,7 +59,7 @@ export function About() {
               Hoy trabajo con herramientas de IA, siempre buscando aportar valor real al negocio y a las personas.
             </p>
 
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 pt-4">
               {traits.map((t, i) => (
                 <motion.div
                   key={t.label}
