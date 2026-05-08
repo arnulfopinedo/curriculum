@@ -98,10 +98,6 @@ export function Hero() {
                 <div className="text-2xl font-bold text-gradient-primary">15+</div>
                 <div className="text-xs text-muted-foreground">Años en TI</div>
               </div>
-              <div className="absolute -top-4 -right-4 glass-strong rounded-2xl px-4 py-3 shadow-card">
-                <div className="text-2xl font-bold text-gradient-primary">M.Sc.</div>
-                <div className="text-xs text-muted-foreground">Sistemas</div>
-              </div>
             </div>
           </div>
         </motion.div>
