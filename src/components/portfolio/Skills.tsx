@@ -72,7 +72,7 @@ export function Skills() {
             </div>
             <div className="mt-2 flex flex-wrap gap-2">
               {webStack.map(t => (
-                <span key={t} className="px-2.5 py-1 rounded-md bg-white/5 text-xs font-mono text-muted-foreground border border-white/5">{t}</span>
+                <span key={t} className="px-2.5 py-1 rounded-md bg-white/5 text-xs font-mono text-foreground border border-white/5">{t}</span>
               ))}
             </div>
           </motion.div>
