@@ -56,7 +56,7 @@ export function About() {
               He construido sitios web, gestionado redes, configurado servidores, atendido a usuarios y dirigido áreas académicas en instituciones educativas. Disfruto convertir problemas complejos en soluciones elegantes y mantenibles.
             </p>
             <p>
-              Hoy trabajo con <span className="text-primary font-medium">React, TypeScript, Node.js, WordPress, Shopify</span> y herramientas de IA, siempre buscando aportar valor real al negocio y a las personas.
+              Hoy trabajo con herramientas de IA, siempre buscando aportar valor real al negocio y a las personas.
             </p>
 
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-4">
