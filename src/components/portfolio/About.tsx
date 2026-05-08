@@ -53,7 +53,7 @@ export function About() {
               Soy <span className="text-foreground font-semibold">Maestro en Sistemas Computacionales</span> con más de una década combinando desarrollo web, infraestructura tecnológica y liderazgo de equipos académicos.
             </p>
             <p>
-              He construido sitios administrables, gestionado redes, configurado servidores, atendido a usuarios y dirigido áreas académicas en instituciones educativas. Disfruto convertir problemas complejos en soluciones elegantes y mantenibles.
+              He construido sitios web, gestionado redes, configurado servidores, atendido a usuarios y dirigido áreas académicas en instituciones educativas. Disfruto convertir problemas complejos en soluciones elegantes y mantenibles.
             </p>
             <p>
               Hoy trabajo con <span className="text-primary font-medium">React, TypeScript, Node.js, WordPress, Shopify</span> y herramientas de IA, siempre buscando aportar valor real al negocio y a las personas.
