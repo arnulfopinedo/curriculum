@@ -66,7 +66,7 @@ export function Hero() {
             <a href="#contact" className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-gradient-primary text-primary-foreground font-medium shadow-glow hover:scale-[1.02] active:scale-95 transition-transform">
               <Mail className="size-4" /> Contactar
             </a>
-            <a href={`${import.meta.env.BASE_URL}cv-arnulfo-pinedo.pdf`} download="CV-Arnulfo-Pinedo.pdf" className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl glass hover:bg-white/10 font-medium transition-all">
+            <a href={cvPdf} download="CV-Arnulfo-Pinedo.pdf" className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl glass hover:bg-white/10 font-medium transition-all">
               <Download className="size-4" /> Descargar CV
             </a>
           </div>
