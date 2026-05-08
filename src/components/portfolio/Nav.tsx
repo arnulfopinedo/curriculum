@@ -8,7 +8,7 @@ const links = [
   { href: "#experience", label: "Experiencia" },
   { href: "#education", label: "Formación" },
   { href: "#english", label: "Inglés" },
-  { href: "#projects", label: "Proyectos" },
+  
   { href: "#contact", label: "Contacto" },
 ];
 
