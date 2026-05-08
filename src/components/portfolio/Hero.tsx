@@ -6,9 +6,6 @@ import profile from "@/assets/profile.jpg";
 const titles = [
   "Ingeniero en Sistemas Computacionales",
   "Maestro en Sistemas Computacionales",
-  "Desarrollador Web Full Stack",
-  "Especialista en Soporte Técnico",
-  "Consultor Tecnológico",
 ];
 
 function useTyping(words: string[], speed = 70, pause = 1600) {
