@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Code, Server, Network, Printer, Wifi, HardDrive, Monitor, Cable } from "lucide-react";
+import { Code, Network } from "lucide-react";
 import { SectionHeader } from "./SectionHeader";
 
 const webSkills = [
