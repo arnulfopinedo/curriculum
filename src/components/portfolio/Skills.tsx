@@ -92,22 +92,17 @@ export function Skills() {
                 <p className="text-sm text-muted-foreground">Infraestructura, redes y hardware</p>
               </div>
             </div>
-            <div className="grid sm:grid-cols-2 gap-3">
+            <div className="flex flex-wrap gap-2">
               {support.map((s, i) => (
-                <motion.div
-                  key={s.title}
+                <motion.span
+                  key={s}
                   initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }}
-                  transition={{ delay: i * 0.05 }}
-                  className="rounded-xl p-4 bg-white/[0.03] border border-white/5 hover:border-primary/40 hover:bg-white/[0.06] transition-all"
+                  transition={{ delay: i * 0.04 }}
+                  className="px-3 py-1.5 rounded-full bg-white/[0.03] border border-white/10 text-xs text-foreground hover:border-primary/40 hover:bg-white/[0.06] transition-all"
                 >
-                  <s.icon className="size-5 text-primary mb-2" />
-                  <div className="text-sm font-semibold text-foreground">{s.title}</div>
-                  <div className="text-xs text-muted-foreground mt-1">{s.desc}</div>
-                </motion.div>
+                  {s}
+                </motion.span>
               ))}
-            </div>
-            <div className="mt-6 text-xs text-muted-foreground">
-              + TeamViewer · Smartboard · Proyectores · Multifuncionales
             </div>
           </motion.div>
         </div>
