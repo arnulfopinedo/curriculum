@@ -59,7 +59,7 @@ export function About() {
               Hoy trabajo con herramientas de IA, siempre buscando aportar valor real al negocio y a las personas.
             </p>
 
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 pt-4">
               {traits.map((t, i) => (
                 <motion.div
                   key={t.label}
