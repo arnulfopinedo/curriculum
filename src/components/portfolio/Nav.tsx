@@ -30,7 +30,7 @@ export function Nav() {
             <div className="size-9 rounded-xl bg-gradient-primary grid place-items-center shadow-glow">
               <Code2 className="size-5 text-primary-foreground" />
             </div>
-            <span className="font-display font-bold tracking-tight">APO<span className="text-primary">.</span></span>
+            <span className="font-display font-bold tracking-tight">Arnulfo Pinedo<span className="text-primary">.</span></span>
           </a>
           <ul className="hidden lg:flex items-center gap-1 text-sm">
             {links.map(l => (
