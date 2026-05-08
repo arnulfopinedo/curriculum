@@ -30,7 +30,7 @@ export function Contact() {
             {[
               { icon: Mail, label: "Correo", value: "arnulfo.pinedo@email.com", href: "mailto:arnulfo.pinedo@email.com" },
               { icon: MessageCircle, label: "WhatsApp", value: "Conversemos por WhatsApp", href: "https://wa.me/520000000000" },
-              { icon: Linkedin, label: "LinkedIn", value: "/in/arnulfo-pinedo", href: "#" },
+              { icon: Linkedin, label: "LinkedIn", value: "/in/arnulfo-pinedo-ortíz-7451a6166/", href: "https://www.linkedin.com/in/arnulfo-pinedo-ort%C3%ADz-7451a6166/" },
               { icon: Github, label: "GitHub", value: "@arnulfo-pinedo", href: "#" },
               { icon: MapPin, label: "Ubicación", value: "México · Disponible remoto" },
             ].map(c => (
