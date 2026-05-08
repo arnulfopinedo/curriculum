@@ -16,7 +16,7 @@ export function Contact() {
             { icon: Mail, label: "Correo", value: "arnulfo.angel2017@gmail.com", href: "mailto:arnulfo.angel2017@gmail.com" },
             { icon: MessageCircle, label: "WhatsApp", value: "Conversemos por WhatsApp", href: "https://wa.me/528712510009" },
             { icon: Linkedin, label: "LinkedIn", value: "/in/arnulfo-pinedo-ortíz-7451a6166/", href: "https://www.linkedin.com/in/arnulfo-pinedo-ort%C3%ADz-7451a6166/" },
-            { icon: MapPin, label: "Ubicación", value: "México · Disponible remoto" },
+            { icon: MapPin, label: "Ubicación", value: "Torreón Coahuila, México - Disponible remoto" },
           ].map(c => (
             <a key={c.label} href={c.href ?? "#"} className="flex items-center gap-4 glass-strong rounded-2xl p-4 shadow-card hover:shadow-glow hover:-translate-y-0.5 transition-all">
               <div className="size-11 rounded-xl bg-gradient-primary grid place-items-center shrink-0 shadow-glow">
