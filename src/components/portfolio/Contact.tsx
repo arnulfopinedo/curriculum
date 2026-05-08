@@ -28,7 +28,7 @@ export function Contact() {
             className="lg:col-span-2 space-y-3"
           >
             {[
-              { icon: Mail, label: "Correo", value: "arnulfo.pinedo@email.com", href: "mailto:arnulfo.pinedo@email.com" },
+              { icon: Mail, label: "Correo", value: "arnulfo.angel2017@gmail.com", href: "mailto:arnulfo.angel2017@gmail.com" },
               { icon: MessageCircle, label: "WhatsApp", value: "Conversemos por WhatsApp", href: "https://wa.me/520000000000" },
               { icon: Linkedin, label: "LinkedIn", value: "/in/arnulfo-pinedo-ortíz-7451a6166/", href: "https://www.linkedin.com/in/arnulfo-pinedo-ort%C3%ADz-7451a6166/" },
               
