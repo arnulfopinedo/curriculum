@@ -11,9 +11,6 @@ const projects = [
   { img: p1, title: "Panel Administrativo Empresarial", desc: "Dashboard interno con métricas en tiempo real, gestión de usuarios y reportes.", tags: ["React", "TypeScript", "Node.js"], category: "Web" },
   { img: p2, title: "Landing Page E-commerce", desc: "Sitio rápido y administrable con integración de catálogo y pasarela de pago.", tags: ["Shopify", "JavaScript", "UI/UX"], category: "Web" },
   { img: p3, title: "Sistema de Gestión Académica", desc: "Plataforma para coordinación, cargas académicas y atención a alumnos.", tags: ["WordPress", "PHP", "SQL"], category: "Sistemas" },
-  { img: p4, title: "Infraestructura de Red Institucional", desc: "Diseño de cableado estructurado, AP, DVR y soporte a 100+ usuarios.", tags: ["Redes", "Soporte", "Hardware"], category: "Soporte" },
-  { img: p1, title: "Automatización con IA", desc: "Flujos de trabajo automatizados con generación de contenido vía IA.", tags: ["Claude", "Gemini", "Node.js"], category: "Automatización" },
-  { img: p2, title: "Sitio Corporativo Responsivo", desc: "Diseño moderno mobile-first con CMS administrable.", tags: ["WordPress", "CSS", "SEO"], category: "Web" },
 ];
 
 const filters = ["Todos", "Web", "Sistemas", "Soporte", "Automatización"];
