@@ -74,11 +74,6 @@ export function Hero() {
             </a>
           </div>
 
-          <div className="mt-10 flex flex-wrap gap-2">
-            {techs.map(t => (
-              <span key={t} className="px-3 py-1.5 rounded-lg glass text-xs font-mono text-muted-foreground">{t}</span>
-            ))}
-          </div>
         </motion.div>
 
         <motion.div
