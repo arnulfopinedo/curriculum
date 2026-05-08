@@ -60,7 +60,7 @@ export function Skills() {
               </div>
               <div>
                 <h3 className="text-2xl font-bold font-display">Desarrollo Web</h3>
-                <p className="text-sm text-muted-foreground">Frontend, backend y CMS</p>
+                <p className="text-sm text-muted-foreground">Frontend y backend</p>
               </div>
             </div>
             <div className="mt-2 flex flex-wrap gap-2">
