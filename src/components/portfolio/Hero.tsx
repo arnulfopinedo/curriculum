@@ -69,9 +69,6 @@ export function Hero() {
             <a href="/cv-arnulfo-pinedo.pdf" download className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl glass hover:bg-white/10 font-medium transition-all">
               <Download className="size-4" /> Descargar CV
             </a>
-            <a href="#projects" className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl text-muted-foreground hover:text-foreground font-medium transition-colors">
-              Ver proyectos <ArrowRight className="size-4" />
-            </a>
           </div>
 
         </motion.div>
