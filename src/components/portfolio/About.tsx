@@ -43,7 +43,7 @@ export function About() {
       <div className="mx-auto max-w-7xl px-4">
         <SectionHeader eyebrow="Sobre mí" title="Tecnología, liderazgo y resultados." />
 
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
+        <div className="max-w-3xl">
           <motion.div
             initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}
             transition={{ duration: 0.6 }}
@@ -73,22 +73,6 @@ export function About() {
               ))}
             </div>
           </motion.div>
-
-          <div className="grid grid-cols-2 gap-4">
-            {stats.map((s, i) => (
-              <motion.div
-                key={s.label}
-                initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: i * 0.1 }}
-                className="glass-strong rounded-2xl p-6 shadow-card hover:shadow-glow transition-all hover:-translate-y-1"
-              >
-                <div className="text-4xl sm:text-5xl font-bold font-display text-gradient-primary">
-                  <Counter to={s.value} suffix={s.suffix} />
-                </div>
-                <div className="mt-2 text-sm text-muted-foreground">{s.label}</div>
-              </motion.div>
-            ))}
-          </div>
         </div>
       </div>
     </section>
