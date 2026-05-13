@@ -9,8 +9,10 @@ import { Contact } from "@/components/portfolio/Contact";
 import { Footer } from "@/components/portfolio/Footer";
 import { FloatingContact } from "@/components/portfolio/FloatingContact";
 import { Toaster } from "@/components/ui/sonner";
+import { useAnalytics } from "@/hooks/use-analytics";
 
 export default function App() {
+  useAnalytics();
   return (
     <div className="min-h-screen">
       <Nav />
