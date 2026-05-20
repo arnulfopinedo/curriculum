@@ -90,9 +90,13 @@ export function Skills() {
             <div className="mt-2 space-y-5">
               {webCategories.map((cat) => (
                 <div key={cat.title}>
-                  <h4 className="text-xs font-semibold tracking-[0.18em] uppercase text-muted-foreground mb-3 font-mono">
-                    {cat.title}
-                  </h4>
+                  <div className="flex items-center gap-3 mb-3">
+                    <span className="h-1.5 w-1.5 rounded-full bg-primary shadow-glow" />
+                    <h4 className="text-sm font-bold tracking-[0.22em] uppercase bg-gradient-primary bg-clip-text text-transparent font-mono">
+                      {cat.title}
+                    </h4>
+                    <span className="flex-1 h-px bg-gradient-to-r from-primary/40 to-transparent" />
+                  </div>
                   <div className="flex flex-wrap gap-2">
                     {cat.items.map((t) => (
                       <span key={t} className="px-2.5 py-1 rounded-md bg-white/5 text-xs font-mono text-foreground border border-white/5">{t}</span>
