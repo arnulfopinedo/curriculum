@@ -92,7 +92,7 @@ export function Skills() {
                 <div key={cat.title}>
                   <div className="flex items-center gap-3 mb-3">
                     <span className="h-1.5 w-1.5 rounded-full bg-primary shadow-glow" />
-                    <h4 className="text-sm font-bold tracking-[0.22em] uppercase bg-gradient-primary bg-clip-text text-transparent font-mono">
+                    <h4 className="text-sm font-bold tracking-[0.22em] uppercase text-primary font-mono drop-shadow-[0_0_8px_hsl(var(--primary)/0.5)]">
                       {cat.title}
                     </h4>
                     <span className="flex-1 h-px bg-gradient-to-r from-primary/40 to-transparent" />
