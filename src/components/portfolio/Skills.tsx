@@ -87,9 +87,18 @@ export function Skills() {
                 <p className="text-sm text-muted-foreground">Frontend y backend</p>
               </div>
             </div>
-            <div className="mt-2 flex flex-wrap gap-2">
-              {webStack.map(t => (
-                <span key={t} className="px-2.5 py-1 rounded-md bg-white/5 text-xs font-mono text-foreground border border-white/5">{t}</span>
+            <div className="mt-2 space-y-5">
+              {webCategories.map((cat) => (
+                <div key={cat.title}>
+                  <h4 className="text-xs font-semibold tracking-[0.18em] uppercase text-muted-foreground mb-3 font-mono">
+                    {cat.title}
+                  </h4>
+                  <div className="flex flex-wrap gap-2">
+                    {cat.items.map((t) => (
+                      <span key={t} className="px-2.5 py-1 rounded-md bg-white/5 text-xs font-mono text-foreground border border-white/5">{t}</span>
+                    ))}
+                  </div>
+                </div>
               ))}
             </div>
           </motion.div>
