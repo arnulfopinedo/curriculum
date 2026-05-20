@@ -15,6 +15,10 @@ const webSkills = [
 
 const webCategories: { title: string; items: string[] }[] = [
   {
+    title: "Inteligencia Artificial",
+    items: ["Claude", "Claude Code", "ChatGPT", "Lovable"],
+  },
+  {
     title: "Páginas Web",
     items: ["HTML", "CSS", "JavaScript", "AJAX", "APIs", "PHP", "Bootstrap", "Arquitectura CSS", "SASS", "Git & GitHub", "React", "Node.js", "TypeScript", "WordPress", "Mobirise", "Shopify", "Moodle", "jQuery", "Axios", "Creación de páginas web", "Administración de hosting"],
   },
