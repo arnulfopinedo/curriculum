@@ -30,11 +30,8 @@ const webCategories: { title: string; items: string[] }[] = [
     title: "Infraestructura",
     items: ["Redes Cisco", "Cajeros ATM", "Soporte remoto", "Office"],
   },
-  {
-    title: "Inteligencia Artificial",
-    items: ["Claude", "Claude Code", "ChatGPT", "Lovable"],
-  },
 ];
+
 
 const support = [
   "Armado, instalación y reparación de equipos de cómputo",
