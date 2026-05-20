@@ -13,7 +13,24 @@ const webSkills = [
   { name: "APIs / Axios", level: 82 },
 ];
 
-const webStack = ["HTML", "CSS (SASS)", "Bootstrap", "PHP", "WordPress", "Mobirise", "Shopify", "Moodle", "GitHub", "JavaScript", "jQuery", "Axios", "Node", "TypeScript", "React", "Creación de páginas web", "Administración de hosting"];
+const webCategories: { title: string; items: string[] }[] = [
+  {
+    title: "Páginas Web",
+    items: ["HTML", "CSS", "JavaScript", "AJAX", "APIs", "PHP", "Bootstrap", "Arquitectura CSS", "SASS", "Git & GitHub", "React", "Node.js", "TypeScript", "WordPress", "Mobirise", "Shopify", "Moodle", "jQuery", "Axios", "Creación de páginas web", "Administración de hosting"],
+  },
+  {
+    title: "Bases de Datos",
+    items: ["MySQL", "SQL Server"],
+  },
+  {
+    title: "Infraestructura",
+    items: ["Redes Cisco", "Cajeros ATM", "Soporte remoto", "Office"],
+  },
+  {
+    title: "Inteligencia Artificial",
+    items: ["Claude", "Claude Code", "ChatGPT", "Lovable"],
+  },
+];
 
 const support = [
   "Armado, instalación y reparación de equipos de cómputo",
